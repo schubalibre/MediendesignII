@@ -1,9 +1,19 @@
 $(document).ready(function(){
-  $('.handy').click(function(){
-    $(this).css({
-        "-webkit-transform": "rotate(90deg)",
-        "-moz-transform": "rotate(90deg)",
-        "transform": "rotate(90deg)" /* For modern browsers(CSS3)  */
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      _self = $(this);
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          $('a[href*=#]:not([href=#])').parent().removeClass("active");
+          _self.parent().addClass("active");
+          return false;
+        }
+      }
     });
   });
 });

@@ -4,6 +4,19 @@
    Author's custom styles
    ========================================================================== */
     /*
+     * Base structure
+     */
+    html,
+    body {
+      height: 100%;
+      background-color: #dedede;
+    }
+    body {
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /*
      * Globals
      */
 
@@ -24,36 +37,51 @@
       border: 1px solid #fff;
     }
 
-
-    /*
-     * Base structure
-     */
-    html,
-    body {
-      height: 100%;
-      background-color: #dedede;
-    }
-    body {
-      color: #333;
-      text-align: center;
-      font-family: 'Roboto', sans-serif;
-    }
-
-    .header{
-      height:100%;
-    }
-
-    /* Extra markup and styles for table-esque vertical and horizontal centering */
-    .site-wrapper {
+    .section{
       display: table;
       width: 100%;
-      height: 100%; /* For at least Firefox */
+      height: 100%;
       min-height: 100%;
+      padding-top:100px;
     }
-    .site-wrapper-inner {
+
+    #idea{
+      color:white;
+      background-color: #947AB6;
+    }
+
+    #logo{
+      color:white;
+      background-color: #44c0f0;
+    }
+
+    #process{
+      color:white;
+      background-color: #E83A68;
+    }
+
+    #prototyp{
+      color:white;
+      background-color: #62BFB8;
+    }
+
+    #contact{
+      color:#666666;
+      background-color: #ffffff;
+    }
+
+    .section .iframe-wrapper{
+      width:100%;
+      float:left;
+      text-align:center;
+    }
+
+    .cover-wrapper {
+      text-align: center;
       display: table-cell;
       vertical-align: top;
     }
+
     .cover-container {
       margin-right: auto;
       margin-left: auto;
@@ -63,86 +91,6 @@
     .inner {
       padding: 30px;
     }
-
-
-    /*
-     * Header
-     */
-    .masthead{
-      background: #dedede;
-     }
-    .masthead-brand {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    .masthead-nav > li {
-      display: inline-block;
-    }
-    .masthead-nav > li + li {
-      margin-left: 20px;
-    }
-    .masthead-nav > li > a {
-      padding-right: 0;
-      padding-left: 0;
-      font-size: 16px;
-      font-weight: bold;
-      color: #333; /* IE8 proofing */
-      color: rgba(255,255,255,.75);
-      border-bottom: 2px solid transparent;
-    }
-    .masthead-nav > li > a:hover,
-    .masthead-nav > li > a:focus {
-      background-color: transparent;
-      border-bottom-color: #333;
-      border-bottom-color: rgba(255,255,255,.25);
-    }
-    .masthead-nav > .active > a,
-    .masthead-nav > .active > a:hover,
-    .masthead-nav > .active > a:focus {
-      color: #333;
-      border-bottom-color: #999;
-    }
-
-    @media (min-width: 768px) {
-      .masthead-brand {
-        float: left;
-      }
-      .masthead-nav {
-        float: right;
-      }
-    }
-
-    /*
-    * Handy
-    */
-
-    .handy{
-      width:350px;
-      height:600px;
-      box-shadow: 2px 3px 4px #888;
-      background: #666;
-      margin: 10px auto;
-    }
-
-    .perspective {
-    	-webkit-perspective: 300;
-    	-moz-perspective: 300;
-    	perspective: 300;
-
-    	-webkit-perspective-origin: 100px;
-    	-moz-perspective-origin: 100px;
-    	perspective-origin: 100px;
-      perspective-origin:150px 150px;
-    }
-
-    .rotate3d {
-    	-webkit-transform: rotateY(15deg);
-    	-moz-transform: rotateY(15deg);
-    	transform: rotateY(15deg);
-    }
-
-
     /*
      * Cover
      */
@@ -150,41 +98,45 @@
     .cover {
       padding: 0 20px;
     }
-    .cover .btn-lg {
-      padding: 10px 20px;
-      font-weight: bold;
+
+    .img-wrapper{
+      margin: 50px auto;
+      float: left;
     }
 
-        /*
-         * Affix and center
-         */
+    .img-wrapper img{
+      background-color: white;
+      max-width:24%;
+      box-shadow: 0 10px 25px hsla(0,0%,0%,.5);
+      -webkit-transform: perspective(600px) rotateY(20deg);
+       -moz-transform: perspective(600px) rotateY(20deg);
+        -ms-transform: perspective(600px) rotateY(20deg);
+         -o-transform: perspective(600px) rotateY(20deg);
+            transform: perspective(600px) rotateY(20deg);
+    }
 
-        @media (min-width: 768px) {
-          /* Pull out the header and footer */
-          .masthead {
-            position: fixed;
-            top: 0;
-          }
-          .mastfoot {
-            position: fixed;
-            bottom: 0;
-          }
-          /* Start the vertical centering */
-          .site-wrapper-inner {
-            vertical-align: middle;
-          }
-          /* Handle the widths */
-          .masthead,
-          .mastfoot,
-          .cover-container {
-            width: 100%; /* Must be percentage or pixels for horizontal alignment */
-          }
-        }
+    .footer{
+      text-align: center;
+      margin: 100px 0;
+    }
 
-        @media (min-width: 992px) {
-          .masthead,
-          .mastfoot,
-          .cover-container {
-            width: 700px;
-          }
-        }
+    /*
+     * Affix and center
+     */
+
+    @media (min-width: 768px) {
+      /* Start the vertical centering */
+      .cover-wrapper {
+        vertical-align: middle;
+      }
+      /* Handle the widths */
+      .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+      }
+    }
+
+    @media (min-width: 992px) {
+      .cover-container {
+        width: 700px;
+      }
+    }
