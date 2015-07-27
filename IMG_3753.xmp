@@ -1,0 +1,80 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c011 79.156380, 2014/05/21-23:38:37        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   tiff:Make="Canon"
+   tiff:Model="Canon EOS 500D"
+   tiff:Orientation="1"
+   exif:ExifVersion="0221"
+   exif:ExposureTime="1/160"
+   exif:ShutterSpeedValue="7321928/1000000"
+   exif:FNumber="28/10"
+   exif:ApertureValue="2970854/1000000"
+   exif:ExposureProgram="3"
+   exif:ExposureBiasValue="0/1"
+   exif:MaxApertureValue="175/100"
+   exif:MeteringMode="6"
+   exif:FocalLength="50/1"
+   exif:CustomRendered="0"
+   exif:ExposureMode="0"
+   exif:WhiteBalance="0"
+   exif:SceneCaptureType="0"
+   exif:FocalPlaneXResolution="4752000/894"
+   exif:FocalPlaneYResolution="3168000/593"
+   exif:FocalPlaneResolutionUnit="2"
+   exif:DateTimeOriginal="2015-07-27T11:17:04.02"
+   aux:SerialNumber="1950706871"
+   aux:LensInfo="50/1 50/1 0/0 0/0"
+   aux:Lens="EF50mm f/1.8"
+   aux:LensID="1"
+   aux:ImageNumber="0"
+   aux:FlashCompensation="0/1"
+   aux:Firmware="1.1.0"
+   xmp:ModifyDate="2015-07-27T11:17:04.02"
+   xmp:CreateDate="2015-07-27T11:17:04.02"
+   xmp:Rating="0"
+   xmp:MetadataDate="2015-07-27T10:21:42+02:00"
+   photoshop:DateCreated="2015-07-27T11:17:04.02"
+   photoshop:SidecarForExtension="CR2"
+   photoshop:EmbeddedXMPDigest="00000000000000000000000000000000"
+   xmpMM:DocumentID="80C996054E76C29FB20A1D820C878FA8"
+   xmpMM:OriginalDocumentID="80C996054E76C29FB20A1D820C878FA8"
+   xmpMM:InstanceID="xmp.iid:2165d53d-0a5f-9e4e-bc42-5e3f59bdfb49"
+   dc:format="image/x-canon-cr2"
+   crs:RawFileName="IMG_3753.CR2"
+   crs:Version="9.1"
+   crs:HasSettings="False"
+   crs:HasCrop="False"
+   crs:AlreadyApplied="False">
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>100</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="2"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:2165d53d-0a5f-9e4e-bc42-5e3f59bdfb49"
+      stEvt:when="2015-07-27T10:21:42+02:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 9.1 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
